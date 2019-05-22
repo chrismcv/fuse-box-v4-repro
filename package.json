@@ -8,11 +8,12 @@
     "start": "node fuse.js"
   },
   "devDependencies": {
-    "fuse-box": "^4.0.0-alpha.27",
+    "fuse-box": "^4.0.0-alpha.28",
     "typescript": "^3.4.5"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.3",
+    "core-js": "^3.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

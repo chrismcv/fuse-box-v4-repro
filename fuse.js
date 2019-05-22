@@ -13,6 +13,7 @@ const fuse = fusebox({
   watch: true,
   hmr: true,
   devServer: true,
-  logging: { level: "succinct" }
+  logging: { level: "succinct" },
+  allowSyntheticDefaultImports: true
 });
 fuse.runDev();
