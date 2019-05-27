@@ -7,5 +7,6 @@
     "strict": true,
     "importHelpers": true,
     "noEmitHelpers": true
-  }
+  },
+  "include": ["src"]
 }

@@ -25,12 +25,7 @@ class Context {
 
 const { task } = sparky(Context);
 
-task("repro1", async context => {
-  const fuse = context.getConfig("repro1");
-  await fuse.runDev();
-});
-
-task("repro2", async context => {
-  const fuse = context.getConfig("repro2");
+task("default", async context => {
+  const fuse = context.getConfig("repro");
   await fuse.runDev();
 });
