@@ -1,2 +1,2 @@
-const a = {};
-console.log(a instanceof Buffer);
+import ck from "ckeditor-releases";
+console.log(ck);
